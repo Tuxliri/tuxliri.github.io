@@ -76,8 +76,7 @@ Finally figured out the problem. The motors were being tested without the propel
 **ESC startup problem**
 
 bug with the ESCs at startup: when the autopilot is first powered on through usb and then the lipo is connected the ESCs work fine, however when I power up the ESCs and the FC simultaneously the ESCs do not enter in the correct mode and Cannot be armed.
-
-![](RackMultipart20221103-1-18eqbe_html_8b1f367d03652dc6.png)
+![ESC cogging problem](/assets/img/drone_log-esc_startup_problems.png)
 
 Try to change **PWM\_MAIN\_DISARM**
 
@@ -86,5 +85,5 @@ Try to change **PWM\_MAIN\_DISARM**
 Using an Arduino the GPS module has been tested and verified to work.
 
 **GPS Baud rate: 9600baud**
-
-![](RackMultipart20221103-1-18eqbe_html_a215722754f9dd50.png)
+The default baud rate of the GPS module has been verified to be 9600baud
+![GPS baud rate test](/assets/img/drone_log-gps_baud_rate.png)
