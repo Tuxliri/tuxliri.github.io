@@ -6,6 +6,18 @@ tags: [quadcopter, diy, build, project log]     # TAG names should always be low
 ---
 
 ## Markdown
+
+# The project
+As a fun side project I decided to take up building my own quadcopter out of some spare parts I had received.
+The build centers around the F450 frame and is intended to be a platform to test in the future advanced control techniques (Adaptive controllers, Neurocontrollers, MPCs, etc.) and autonomy techniques (path planning, SLAM, ...).
+
+![/assets/img/drone_log-first_build.jpg]
+# BOM
+- DJI F450 frame
+- Omnibus F4 SD
+- 3300mAh 3S LiPo battery
+- 30A BLDC ESC
+
 # Joystick setup
 
 As we're not going to use an RC controller but rather control the drone through the WiFi connection of the ESP-8266 (which in turn communicates with the Flight Controller through the MAVLink protocol) we need to disable the check for the presence of the RC controller, which prevents the drone from taking off in absence of it.
