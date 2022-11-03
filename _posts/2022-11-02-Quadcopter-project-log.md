@@ -1,7 +1,7 @@
 ---
 title: Quadcopter project log
 date: 2022-11-02 19:30:00 -0600
-categories: [Utility, resources]
+categories: [Projects]
 tags: [quadcopter, diy, build, project log]     # TAG names should always be lowercase
 ---
 
