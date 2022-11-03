@@ -9,8 +9,7 @@ tags: [quadcopter, diy, build, project log]     # TAG names should always be low
 As a fun side project I decided to take up building my own quadcopter out of some spare parts I had received.
 The build centers around the F450 frame and is intended to be a platform to test in the future advanced control techniques (Adaptive controllers, Neurocontrollers, MPCs, etc.) and autonomy techniques (path planning, SLAM, ...).
 
-![Drone final build](/tuxliri.github.io/assets/img/drone_log-first_build.jpg)
-
+![Drone first complete build](/assets/img/drone_log-first_build.jpg)
 # BOM
 - DJI F450 frame
 - Omnibus F4 SD
