@@ -1,6 +1,6 @@
 ---
 title: Awesome resources
-date: 2022-07-10 11:39:00 +0100
+date: 2022-10-07 11:39:00 +0100
 categories: [Utility, resources]
 tags: [links, reference, resource, bookmark]     # TAG names should always be lowercase
 ---
