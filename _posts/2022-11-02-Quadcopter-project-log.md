@@ -14,7 +14,7 @@ The build centers around the F450 frame and is intended to be a platform to test
 - DJI F450 frame
 - Omnibus F4 SD
 - 3300mAh 3S LiPo battery
-- 30A BLDC ESC
+- 30A BLDC ESC [PDF manual](/assets/30A_BLDC_ESC_Product_Manual%202022-03-09%2015_25_48.pdf)
 
 # Joystick setup
 
@@ -59,7 +59,7 @@ PX4 sends a value of [PWM\_MAIN\_DISARM](https://docs.px4.io/master/en/advanced_
 
 This value should be set correctly for the ESC (correct values vary between roughly 1200 and 900 us).
 
-**TRY TO CHANGE IT UNTIL THE ESCs work correctly as soon as powered up**
+- TRY TO CHANGE IT UNTIL THE ESCs work correctly as soon as powered up
 
 **ESCs update 09/03/2022:**
 
@@ -71,7 +71,7 @@ I tested this by running the motors out of an Arduino. Since the problem kept sh
 
 [(23) How to Improve Cogging or Start Up Hesitation in a Brushless Motor (Occurs in a Sensorless Motor) - YouTube](https://www.youtube.com/watch?v=M2k7QloXVNo)
 
-Finally figured out the problem. The motors were being tested without the propellers and this was causing troubles with the ESCs. More in detail the Hobbypower ESCs are so-called "sensorless BLDC"; this means that they detect if the rotor is actually spinning and at what speed by measuring the back-EMF; however when there are no propellers installed there is basically no torque load (i.e. the rotor spins freely as there is no drag from the blades generating a torque opposite to the spinning direction). This results in the BLDC stuttering and the ESC shutting down the power after 2 seconds as a safety measure, in order to avoid frying the MOSFET.
+I've finally figured out the problem. The motors were being tested without the propellers and this was causing troubles with the ESCs. More in detail the Hobbypower ESCs are so-called "sensorless BLDC"; this means that they detect if the rotor is actually spinning and at what speed by measuring the back-EMF; however when there are no propellers installed there is basically no torque load (i.e. the rotor spins freely as there is no drag from the blades generating a torque opposite to the spinning direction). This results in the BLDC stuttering and the ESC shutting down the power after 2 seconds as a safety measure, in order to avoid frying the MOSFET.
 
 **ESC startup problem**
 
