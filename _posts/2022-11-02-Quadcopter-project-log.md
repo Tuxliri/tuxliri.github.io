@@ -79,6 +79,13 @@ bug with the ESCs at startup: when the autopilot is first powered on through usb
 ![ESC cogging problem](/assets/img/drone_log-esc_startup_problems.png)
 
 Try to change **PWM\_MAIN\_DISARM**
+# First test flight 28-03-22
+The first test flight managed to get the drone up in the air... and crash it a few seconds later! There was probably an eccessive rate of climb resulting in a divergence of the control action as PID tuning had not yet been performed. 
+This resulted in a broken arm and blade, but it was swiftly replaced to get it back to action!
+
+The video is shot from a DJI drone with my father as the filmmaker!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yYXmbW054NU?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **GPS setup**
 
