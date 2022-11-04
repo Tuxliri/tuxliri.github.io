@@ -85,7 +85,7 @@ This resulted in a broken arm and blade, but it was swiftly replaced to get it b
 
 The video is shot from a DJI drone with my father as the filmmaker!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yYXmbW054NU?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OANySwUSy8g?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **GPS setup**
 
