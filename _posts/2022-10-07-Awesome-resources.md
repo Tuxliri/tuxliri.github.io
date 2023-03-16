@@ -4,13 +4,17 @@ date: 2022-10-07 11:39:00 +0100
 categories: [Utility, resources]
 tags: [links, reference, resource, bookmark]     # TAG names should always be lowercase
 ---
+
 # Awesome Resources
 
 Great resources to do stuff!
+
 ## Markdown
+
 - [commonmark](https://commonmark.org/) | a useful basic resource on the Markdown syntax
 
 ## Version Control
+
 - [git - the simple guide](https://rogerdudler.github.io/git-guide/) | very simple but complete git guide, no deep stuff
 - [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages/) | blazing-focused github pages learning guide
 
@@ -20,4 +24,5 @@ Great resources to do stuff!
 - [A Beginner's Guide to the ESP8266](https://tttapa.github.io/ESP8266/Chap01%20-%20ESP8266.html) | quick introduction to ESP8266 programming with examples
 
 ## Mathematics
-* [Complex Analysis interactive web book](https://complex-analysis.com/) | an amazing interactive online book to learn complex analysis
+
+- [Complex Analysis interactive web book](https://complex-analysis.com/) | an amazing interactive online book to learn complex analysis
