@@ -26,3 +26,6 @@ Great resources to do stuff!
 ## Mathematics
 
 - [Complex Analysis interactive web book](https://complex-analysis.com/) | an amazing interactive online book to learn complex analysis
+
+## Latex
+- [Fixing figure placement in Latex](https://aty.sdsu.edu/bibliog/latex/floats.html)
