@@ -35,24 +35,37 @@ Acta Astronautica, 2024,
 [https://doi.org/10.1016/j.actaastro.2024.11.028](https://www.sciencedirect.com/science/article/pii/S0094576524006751).
 
 ---
-
 ## Projects
 
-### 6DOF Planetary Landing Simulator
-Reinforcement learning for 6DOF control in planetary landing simulations.
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="../assets/img/projects/rl_rocket_6dof.gif" alt="6DOF Planetary Landing Simulator" width="100" style="margin-right: 20px;">
+  <div>
+    <h3>6DOF Planetary Landing Simulator</h3>
+    <p>Reinforcement learning for 6DOF control in planetary landing simulations.</p>
+    <a href="https://github.com/Tuxliri/RL_rocket_6DOF">GitHub Repository</a>
+  </div>
+</div>
 
-[GitHub Repository](https://github.com/Tuxliri/RL_rocket_6DOF)
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="../assets/img/projects/autolab_loc.png" alt="Multi-Agent SLAM" width="100" style="margin-right: 20px;">
+  <div>
+    <h3>Multi-Agent SLAM</h3>
+    <p>Research on collaborative SLAM for autonomous navigation in smart cities. I contributed to integrating odometry data from the vehicles to increase 3x the frequency of the localization estimate.</p>
+    <a href="https://docs.duckietown.com/ente/opmanual-autolab/localization.html">Website</a>, 
+    <a href="https://github.com/duckietown/dt-autolab-localization/tree/ente">GitHub Repository</a>
+  </div>
+</div>
 
-### Multi-Agent SLAM
-Research on collaborative SLAM for autonomous navigation in smart cities.
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="../assets/img/projects/quadcopter_MRAC.gif" alt="Adaptive MRAC Controller for Quadcopter" width="100" style="margin-right: 20px;">
+  <div>
+    <h3>Adaptive MRAC Controller for Quadcopter</h3>
+    <p>This project aimed to achieve trajectory tracking for a quadrotor using adaptive control laws by developing a baseline PI controller with LQR methodology, incorporating adaptive augmentation for handling uncertain aerodynamic effects, and introducing robust modifications to maintain performance under disturbances.</p>
+    <a href="https://drive.google.com/file/d/16t8BSKxa3bfU_RHP4xnpEdpsmCwHhyGs/view?usp=sharing">Report</a>, 
+    <a href="https://youtube.com/shorts/GGJCI4cSY00?feature=share">Video</a>
+  </div>
+</div>
 
-[Website](https://docs.duckietown.com/ente/opmanual-autolab/localization.html), [GitHub Repository](https://github.com/duckietown/dt-autolab-localization/tree/ente)
-
-### Adaptive MRAC Controller for quadcopter
-
-This project aimed to achieve trajectory tracking for a quadrotor using adaptive control laws by developing a baseline PI controller with LQR methodology, incorporating adaptive augmentation for handling uncertain aerodynamic effects, and introducing robust modifications to maintain performance under disturbances.
-
-[Report](https://drive.google.com/file/d/16t8BSKxa3bfU_RHP4xnpEdpsmCwHhyGs/view?usp=sharing), [Video](https://youtube.com/shorts/GGJCI4cSY00?feature=share)
 ---
 
 ## Contact
