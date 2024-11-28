@@ -37,8 +37,8 @@ Acta Astronautica, 2024,
 ---
 ## Projects
 
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="../assets/img/projects/rl_rocket_6dof.gif" alt="6DOF Planetary Landing Simulator" width="100" style="margin-right: 20px;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="../assets/img/projects/rl_rocket_6dof.gif" alt="6DOF Planetary Landing Simulator" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>6DOF Planetary Landing Simulator</h3>
     <p>Reinforcement learning for 6DOF control in planetary landing simulations.</p>
@@ -46,8 +46,8 @@ Acta Astronautica, 2024,
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="../assets/img/projects/autolab_loc.png" alt="Multi-Agent SLAM" width="100" style="margin-right: 20px;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="../assets/img/projects/autolab_loc.png" alt="Multi-Agent SLAM" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Multi-Agent SLAM</h3>
     <p>Research on collaborative SLAM for autonomous navigation in smart cities. I contributed to integrating odometry data from the vehicles to increase 3x the frequency of the localization estimate.</p>
@@ -56,8 +56,8 @@ Acta Astronautica, 2024,
   </div>
 </div>
 
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="../assets/img/projects/quadcopter_MRAC.gif" alt="Adaptive MRAC Controller for Quadcopter" width="100" style="margin-right: 20px;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="../assets/img/projects/quadcopter_MRAC.gif" alt="Adaptive MRAC Controller for Quadcopter" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
   <div>
     <h3>Adaptive MRAC Controller for Quadcopter</h3>
     <p>This project aimed to achieve trajectory tracking for a quadrotor using adaptive control laws by developing a baseline PI controller with LQR methodology, incorporating adaptive augmentation for handling uncertain aerodynamic effects, and introducing robust modifications to maintain performance under disturbances.</p>
