@@ -39,32 +39,33 @@ Acta Astronautica, 2024,
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <img src="../assets/img/projects/rl_rocket_6dof.gif" alt="6DOF Planetary Landing Simulator" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
-  <div>
-    <h3>6DOF Planetary Landing Simulator</h3>
-    <p>Reinforcement learning for 6DOF control in planetary landing simulations.</p>
-    <a href="https://github.com/Tuxliri/RL_rocket_6DOF">GitHub Repository</a>
+  <div style="flex: 1;">
+    <h3 style="margin: 0; font-size: 1.2em;">6DOF Planetary Landing Simulator</h3>
+    <p style="margin: 5px 0;">Reinforcement learning for 6DOF control in planetary landing simulations.</p>
+    <a href="https://github.com/Tuxliri/RL_rocket_6DOF" style="text-decoration: none; color: #007BFF;">GitHub Repository</a>
   </div>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <img src="../assets/img/projects/autolab_loc.png" alt="Multi-Agent SLAM" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
-  <div>
-    <h3>Multi-Agent SLAM</h3>
-    <p>Research on collaborative SLAM for autonomous navigation in smart cities. I contributed to integrating odometry data from the vehicles to increase 3x the frequency of the localization estimate.</p>
-    <a href="https://docs.duckietown.com/ente/opmanual-autolab/localization.html">Website</a>, 
-    <a href="https://github.com/duckietown/dt-autolab-localization/tree/ente">GitHub Repository</a>
+  <div style="flex: 1;">
+    <h3 style="margin: 0; font-size: 1.2em;">Multi-Agent SLAM</h3>
+    <p style="margin: 5px 0;">Research on collaborative SLAM for autonomous navigation in smart cities. I contributed to integrating odometry data from the vehicles to increase 3x the frequency of the localization estimate.</p>
+    <a href="https://docs.duckietown.com/ente/opmanual-autolab/localization.html" style="text-decoration: none; color: #007BFF;">Website</a>, 
+    <a href="https://github.com/duckietown/dt-autolab-localization/tree/ente" style="text-decoration: none; color: #007BFF;">GitHub Repository</a>
   </div>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <img src="../assets/img/projects/quadcopter_MRAC.gif" alt="Adaptive MRAC Controller for Quadcopter" style="width: 150px; height: 150px; object-fit: cover; margin-right: 20px;">
-  <div>
-    <h3>Adaptive MRAC Controller for Quadcopter</h3>
-    <p>This project aimed to achieve trajectory tracking for a quadrotor using adaptive control laws by developing a baseline PI controller with LQR methodology, incorporating adaptive augmentation for handling uncertain aerodynamic effects, and introducing robust modifications to maintain performance under disturbances.</p>
-    <a href="https://drive.google.com/file/d/16t8BSKxa3bfU_RHP4xnpEdpsmCwHhyGs/view?usp=sharing">Report</a>, 
-    <a href="https://youtube.com/shorts/GGJCI4cSY00?feature=share">Video</a>
+  <div style="flex: 1;">
+    <h3 style="margin: 0; font-size: 1.2em;">Adaptive MRAC Controller for Quadcopter</h3>
+    <p style="margin: 5px 0;">This project aimed to achieve trajectory tracking for a quadrotor using adaptive control laws by developing a baseline PI controller with LQR methodology, incorporating adaptive augmentation for handling uncertain aerodynamic effects, and introducing robust modifications to maintain performance under disturbances.</p>
+    <a href="https://drive.google.com/file/d/16t8BSKxa3bfU_RHP4xnpEdpsmCwHhyGs/view?usp=sharing" style="text-decoration: none; color: #007BFF;">Report</a>, 
+    <a href="https://youtube.com/shorts/GGJCI4cSY00?feature=share" style="text-decoration: none; color: #007BFF;">Video</a>
   </div>
 </div>
+
 
 ---
 
