@@ -29,3 +29,5 @@ Great resources to do stuff!
 
 ## Latex
 - [Fixing figure placement in Latex](https://aty.sdsu.edu/bibliog/latex/floats.html)
+## Python
+- [PyPA - Official Python packaging guide](https://packaging.python.org/en/latest/overview/)
