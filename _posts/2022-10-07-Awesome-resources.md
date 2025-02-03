@@ -29,5 +29,10 @@ Great resources to do stuff!
 
 ## Latex
 - [Fixing figure placement in Latex](https://aty.sdsu.edu/bibliog/latex/floats.html)
+  
 ## Python
 - [PyPA - Official Python packaging guide](https://packaging.python.org/en/latest/overview/)
+
+## Research
+- [Good research tips and practices](https://goodresearch.dev/)
+- [Research code best practices](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html)
