@@ -36,3 +36,7 @@ Great resources to do stuff!
 ## Research
 - [Good research tips and practices](https://goodresearch.dev/)
 - [Research code best practices](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html)
+
+## Linux
+- [tmux guide](https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
+- [tmux styling and usability improvements](https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
