@@ -1,0 +1,144 @@
+---
+---
+
+/*
+  If the number of TAB files has changed, the following variable is required.
+  And it must be defined before `@import`.
+*/
+$tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
+
+@import "{{ site.theme }}";
+
+/* Wes Anderson-inspired custom styling */
+:root {
+  --wa-cream: #f7e6bf;
+  --wa-rose: #d97b73;
+  --wa-coral: #e8a07a;
+  --wa-mustard: #d7a13b;
+  --wa-teal: #2e7f84;
+  --wa-deep-teal: #1f5559;
+  --wa-ink: #33302a;
+  --wa-border: #8c6f47;
+  --wa-card: rgba(255, 247, 224, 0.92);
+}
+
+html[data-mode="light"],
+html:not([data-mode]) {
+  --body-bg: var(--wa-cream);
+  --main-bg: #fff3d1;
+  --sidebar-bg: #2e7f84;
+  --topbar-bg: rgba(247, 230, 191, 0.94);
+  --text-color: var(--wa-ink);
+  --heading-color: #2d4f52;
+  --link-color: #b4574f;
+  --link-underline-color: rgba(180, 87, 79, 0.35);
+  --card-bg: var(--wa-card);
+  --card-hovor-bg: #ffe5b8;
+  --btn-border-color: var(--wa-border);
+  --blockquote-border-color: var(--wa-mustard);
+  --blockquote-text-color: #5a4b38;
+  --site-title-color: #fff3d1;
+  --site-subtitle-color: #f7d8a7;
+  --sidebar-muted-color: #f2d6a0;
+  --sidebar-active-color: #fff8df;
+  --sidebar-hover-bg: rgba(255, 243, 209, 0.18);
+  --nav-cursor-color: #f0b35b;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(217, 123, 115, 0.18), transparent 32rem),
+    linear-gradient(135deg, rgba(46, 127, 132, 0.08) 25%, transparent 25%) 0 0 / 3rem 3rem,
+    var(--body-bg);
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.site-title {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: 0.035em;
+}
+
+#sidebar {
+  background:
+    linear-gradient(180deg, rgba(31, 85, 89, 0.96), rgba(46, 127, 132, 0.96)),
+    repeating-linear-gradient(90deg, transparent 0 1.3rem, rgba(255, 243, 209, 0.08) 1.3rem 1.4rem);
+  border-right: 0.35rem solid var(--wa-mustard);
+}
+
+#sidebar .site-title {
+  text-transform: uppercase;
+}
+
+#avatar img {
+  border: 0.28rem solid var(--wa-cream);
+  box-shadow: 0 0 0 0.18rem var(--wa-rose), 0.45rem 0.45rem 0 var(--wa-deep-teal);
+}
+
+#main-wrapper,
+#topbar-wrapper {
+  background: transparent;
+}
+
+#topbar {
+  border-bottom: 0.18rem solid var(--wa-mustard);
+  box-shadow: 0 0.35rem 0 rgba(217, 123, 115, 0.18);
+}
+
+.card,
+.post-preview,
+#toc-wrapper,
+.panel-wrapper,
+#access-lastmod,
+#access-tags,
+#search-results .post-preview {
+  background: var(--wa-card);
+  border: 0.16rem solid var(--wa-border);
+  border-radius: 1.15rem;
+  box-shadow: 0.55rem 0.55rem 0 rgba(46, 127, 132, 0.18);
+}
+
+.post-preview:hover {
+  transform: translate(-0.12rem, -0.12rem);
+  box-shadow: 0.72rem 0.72rem 0 rgba(217, 123, 115, 0.24);
+}
+
+.post-preview,
+.card {
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.post-content a,
+.post-preview a:not(.img-link),
+#panel-wrapper a,
+#tail-wrapper a {
+  color: var(--link-color);
+  text-decoration-color: var(--link-underline-color);
+  text-decoration-thickness: 0.15rem;
+  text-underline-offset: 0.2rem;
+}
+
+.btn,
+button,
+.page-link,
+.pagination .page-item .page-link {
+  border-color: var(--wa-border);
+  border-radius: 999px;
+}
+
+blockquote {
+  background: rgba(232, 160, 122, 0.16);
+  border-left: 0.35rem solid var(--wa-mustard);
+  border-radius: 0.75rem;
+}
+
+code.highlighter-rouge,
+code {
+  background: rgba(46, 127, 132, 0.12);
+  color: #8b3f39;
+  border-radius: 0.35rem;
+}
+
+footer {
+  color: #6c5a3d;
+}
