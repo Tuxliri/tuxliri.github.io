@@ -23,7 +23,7 @@ timezone: Europe/Madrid
 
 title: Chaos theory                          # the main title
 
-tagline: A place where I can write about myself   # it will display as the sub-title
+tagline: A place where I can write   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
